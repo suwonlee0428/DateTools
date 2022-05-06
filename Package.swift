@@ -7,4 +7,3 @@ let package = Package(
         Target(name: "DateToolsSwift")
     ]
 )
-package.exclude = ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
