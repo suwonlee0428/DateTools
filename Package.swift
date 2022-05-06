@@ -1,4 +1,3 @@
-// swift-tools-version:5.4.0
 import PackageDescription
 
 let package = Package(
@@ -7,3 +6,4 @@ let package = Package(
         Target(name: "DateToolsSwift")
     ]
 )
+package.exclude = ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
