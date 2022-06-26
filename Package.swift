@@ -8,4 +8,3 @@ let package = Package(
         Target(name: "DateTools")
     ]
 )
-package.exclude = ["Examples", "Tests"]
