@@ -3,10 +3,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "DateToolsSwift",
+    name: "DateTools",
     targets: [
         .target(
-            name: "DateToolsSwift",
+            name: "DateTools",
             path: "DateToolsSwift/DateTools",
         )
     ]
