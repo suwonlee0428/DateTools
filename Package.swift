@@ -3,10 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "DateToolsSwift",
-    products: [
-        .library(name: "DateToolsSwift", targets: ["DateToolsSwift"])
-    ],
+    name: "DateTools",
     targets: [
         
         .target(
