@@ -6,7 +6,8 @@ let package = Package(
     name: "DateToolsSwift",
     targets: [
         .target(
-            name: "DateToolsSwift"
+            name: "DateToolsSwift",
+            path: "DateToolsSwift/DateTools",
         )
     ]
 )
