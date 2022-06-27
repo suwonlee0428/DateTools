@@ -3,9 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "DateTools",
+    name: "DateToolsSwift",
+    products: [
+        .library(name: "DateToolsSwift", targets: ["DateToolsSwift"])
+    ],
     targets: [
-        .target(name: "DateTools")
+        
+        .target(
+            name: "DateToolsSwift",
+            path: "DateToolsSwift/DateTools",
+        )
     ]
 )
-
