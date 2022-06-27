@@ -5,9 +5,7 @@ import PackageDescription
 let package = Package(
     name: "DateTools",
     products: [
-        .library(
-            name: "DateTools",
-            targets: ["DateTools"]),
+        .library(name: "DateTools",targets: ["DateTools"])
     ],
     targets: [
         .target(
